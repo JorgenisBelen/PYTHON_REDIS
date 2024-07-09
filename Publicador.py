@@ -4,7 +4,7 @@ import os
 
 
 redis_host = os.getenv('REDIS_HOST')
-redis_port = '10621'
+redis_port = os.getenv('REDIS_PORT')
 redis_password = os.getenv('REDIS_PASSWORD')
 
 
